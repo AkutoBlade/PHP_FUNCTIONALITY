@@ -1,7 +1,6 @@
 <?php
 
 $ecoma =  $ecomq_1 + $ecomq_2 + $ecomq_3 + $ecomq_4 + $ecomq_5;
-
 if ($ecoma <= 10) {
 
   switch (true) {
