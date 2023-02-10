@@ -59,8 +59,6 @@ if (isset($_POST['submit_smme'])) {
   $smmeq_4 = $_POST["smme_4"];
   $smmeq_5 = $_POST["smme_5"];
 
-  $smmea =  $smmeq_1 + $smmeq_2 + $smmeq_3 + $smmeq_4 + $smmeq_5;
-
   require 'smme.php';
 }
 
@@ -72,7 +70,7 @@ if (isset($_POST['submit_main'])) {
   $mainq_3 = $_POST["main_3"];
   $mainq_4 = $_POST["main_4"];
 
-  $maina = $mainq_1 + $mainq_2 + $mainq_3 + $mainq_4;
+ 
 
   require 'maintenance.php';
 }

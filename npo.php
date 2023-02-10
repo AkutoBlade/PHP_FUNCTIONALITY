@@ -8,7 +8,8 @@ if ($npoa > 0 && $npoa <= 6) { ?>
             display: none;
         }
     </style>
-<?php echo "starter package";
+    <a  href="" >starter package</a>
+<?php 
 }
 //displays starter package
 else if ($npoa > 6 && $npoa <=  12) { ?>
@@ -17,7 +18,8 @@ else if ($npoa > 6 && $npoa <=  12) { ?>
             display: none;
         }
     </style>
-<?php echo "growth package";
+    <a  href="" >growth package</a>
+<?php 
 }
 
 //displays growth package
@@ -27,7 +29,8 @@ else if ($npoa > 6 && $npoa <=  12) { ?>
             display: none;
         }
     </style>
-<?php echo "premium package";
+    <a  href="" >premium package</a>
+<?php 
         }
      
      //displays premium package

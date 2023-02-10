@@ -1,52 +1,33 @@
 <?php
 
 $ecoma =  $ecomq_1 + $ecomq_2 + $ecomq_3 + $ecomq_4 + $ecomq_5;
-if ($ecoma <= 10) {
+if ($ecoma > 0 && $ecoma <= 10) {?>
 
-  switch (true) {
-    case $ecomq_6 === 'yes':
-      if ($maina <= 8) {
-        // Displays starter package and fixer upper package;
-      } else if ($maina > 8 && $maina <= 16) {
-        //  Displays starter package and optimizer package
-      } else if ($main > 16 && $maina < 16) {
-        // Display starter package and premium package
-      }
-    case $ecomq_6 === 'no': //Displays starter package only
-
+  <style>
+  #institution {
+      display: none;
   }
+  
+</style>
+<a  href="" >starter package</a>
+<?php
 
-  //displays starter package
+} else if ($ecoma > 10 && $ecoma <=  20) {?>
 
-} else if ($ecoma > 10 && $ecoma <=  20) {
-
-  switch (true) {
-    case $ecomq_6 === 'yes':
-      if ($maina <= 8) {
-        // Displays growth package and fixer upper package;
-      } else if ($maina > 8 && $maina <= 16) {
-        //  Displays growth package and optimizer package
-      } else if ($main > 16 && $maina < 16) {
-        // Display growth package and premium package
-      }
-    case $ecomq_6 === 'no': //Displays growth package only
-
+  <style>
+  #institution {
+      display: none;
   }
-} else if ($ecoma > 20 && $ecoma <= 30) {
+</style>
+<a  href="" >growth package</a>
+<?php
+} else if ($ecoma > 20 && $ecoma <= 30) { ?>
+<style>
+        #institution {
+            display: none;
+        }
+    </style>
+    <a  href="" >premium package</a>
+<?php 
 
-  switch (true) {
-    case $ecomq_6 === 'yes':
-      if ($maina <= 8) {
-        // Displays premium package and fixer upper package;
-      } else if ($maina > 8 && $maina <= 16) {
-        //  Displays premium package and optimizer package
-      } else if ($main > 16 && $maina < 16) {
-        // Display premium  package and premium package
-      }
-    case $ecomq_6 === 'no': //Displays premium package only
-
-  }
-
-  //displays premium package
-
-}
+} 
